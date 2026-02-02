@@ -1,3 +1,7 @@
+header {
+  height: 15rem;
+}
+
 header .container {
   display: flex;
   align-items: center;
@@ -51,3 +55,46 @@ header .container button {
 }
 
 /* End of header style */
+
+/* Hero section style */
+.s-hero .container h1 {
+  margin-bottom: 9.9rem;
+}
+
+.s-hero .container .hero-content {
+  position: relative;
+  margin-top: 15rem;
+}
+
+.s-hero .container .hero-content .background-square {
+  background-color: var(--green-medium);
+  z-index: -2;
+  width: 120rem;
+  height: 36rem;
+  border-radius: 3rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.s-hero .container .hero-content img {
+  margin: 0 auto;
+  bottom: 0;
+}
+
+.s-hero .container .content-bottom {
+  margin-top: 11rem;
+}
+
+.s-hero .container .content-bottom .tag {
+  color: var(--p-color);
+  font-size: 1.5rem;
+}
+
+.s-hero .container .content-bottom .logos-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  gap: 4rem;
+}
+/* End of section hero style */
