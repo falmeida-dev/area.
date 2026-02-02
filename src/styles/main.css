@@ -1,0 +1,53 @@
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container img {
+  margin-top: 2.6rem;
+}
+header .container nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 1.6rem;
+}
+
+header .container nav ul {
+  display: flex;
+  align-items: center;
+  gap: 2.7rem;
+}
+
+header .container nav ul .active {
+  background-color: rgb(40, 40, 40);
+  color: var(--background-color);
+}
+
+header .container nav ul .active:hover {
+  background-color: var(--background-color);
+  color: var(--black);
+}
+
+header .container nav ul li a {
+  color: var(--black);
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  transition: all 0.4s ease;
+}
+
+header .container nav ul li a:hover {
+  border-radius: 2rem;
+  background-color: rgb(40, 40, 40);
+  color: var(--background-color);
+}
+
+header .container button {
+  margin-top: 1.9rem;
+}
+
+/* End of header style */
