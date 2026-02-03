@@ -49,7 +49,7 @@
 .card-container {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .card-item {
@@ -68,6 +68,9 @@
   font-weight: 400;
 }
 
+.card-item p {
+  text-align: justify;
+}
 /* Success container card style */
 
 .success-card-container {
