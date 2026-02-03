@@ -144,6 +144,7 @@ p {
 .s-picture .container .content-left h2 {
   margin-top: 6rem;
   margin-bottom: 4rem;
+  font-weight: 400;
 }
 
 .s-picture .container .content-left .lines-container .line-item {
