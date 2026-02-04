@@ -173,3 +173,27 @@ p {
 .s-picture .container .content-left button {
   margin-top: 4rem;
 }
+
+/* Specs section style */
+
+.s-specs .container {
+  border-top: 1px solid var(--p-color);
+  padding: 8rem 0;
+}
+
+.s-specs .container .content {
+  text-align: center;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.s-specs .container .content .specs-span {
+  display: inline-block;
+  color: var(--green-intense);
+  margin-bottom: 4rem;
+}
+
+.s-specs .container .content h2 {
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
