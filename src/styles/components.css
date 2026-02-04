@@ -81,7 +81,7 @@
 
 .success-card-container .success-item {
   max-width: 38.7rem;
-  max-height: 30rem;
+  height: 30rem;
   border-top: 1px solid var(--divider-color);
 }
 

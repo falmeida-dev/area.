@@ -228,3 +228,26 @@ p {
   font-size: 1.2rem;
   margin-top: 0.8rem;
 }
+
+/* Success section */
+.s-success .container .top-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+  border-top: 1px solid var(--divider-color);
+  padding-top: 8rem;
+}
+
+.s-success .container .top-content h2 {
+  font-weight: 400;
+}
+
+.s-success .success-card-container {
+  padding-bottom: 12rem;
+  padding-top: 8rem;
+}
+
+.container .img-container {
+  margin-bottom: 4rem;
+}
