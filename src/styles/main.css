@@ -178,7 +178,7 @@ p {
 
 .s-specs .container {
   border-top: 1px solid var(--p-color);
-  padding: 8rem 0;
+  padding: 20rem 0;
 }
 
 .s-specs .container .content {
@@ -196,4 +196,35 @@ p {
 .s-specs .container .content h2 {
   font-weight: 400;
   margin-bottom: 4rem;
+}
+
+/* Section right img */
+
+.s-picture-left .container {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 12rem;
+}
+
+.s-picture-left .container .content-right {
+  max-width: 59rem;
+  padding: 14rem 0 14rem 5rem;
+  border-top: 1px solid var(--divider-color);
+}
+
+.s-picture-left .container .author-container {
+  margin-top: 50px;
+}
+
+.s-picture-left .container .author-container p {
+  margin: 0;
+  color: var(--black);
+  font-size: 1.5rem;
+}
+
+.s-picture-left .container .author-container span {
+  display: inline-block;
+  color: var(--green-intense);
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
 }
