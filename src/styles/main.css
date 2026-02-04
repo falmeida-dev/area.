@@ -251,3 +251,24 @@ p {
 .container .img-container {
   margin-bottom: 4rem;
 }
+
+/* Connect style */
+.connect-with-us .container {
+  padding: 12rem 0;
+  border-top: 1px solid var(--divider-color);
+}
+
+.connect-with-us .container .text-content {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 60rem;
+}
+
+.connect-with-us .container .text-content h2 {
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.connect-with-us .container .text-content button {
+  margin: 0 auto;
+}
